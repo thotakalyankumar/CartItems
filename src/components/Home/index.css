@@ -1,0 +1,131 @@
+.bg-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.cards-container {
+  width: 90vw;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  align-self: center;
+}
+.card {
+  width: 23vw;
+  justify-content: space-between;
+  background-color: #f7f5f5;
+  height: 30vh;
+  box-shadow: -15px 15px 10px -15px #111;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 40px;
+}
+.details-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  line-height: 0;
+  padding-left: 10px;
+}
+.title {
+  font-size: 8px;
+  line-height: 0;
+  padding-top: 15px;
+  padding-left: 1px;
+  font-weight: 600;
+}
+
+.product {
+  font-size: 17px;
+  line-height: 0;
+  margin-top: 8px;
+  font-weight: bold;
+}
+.cart-quantity-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  padding-left: 0px;
+}
+
+.quantity-controller-button {
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+  cursor: pointer;
+}
+.cart-quantity {
+  color: #52606d;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  padding-left: 2px;
+  padding-right: 2px;
+  border-top: solid 1.5px;
+  border-bottom: solid 1.5px;
+  padding-bottom: 0px;
+  line-height: 1;
+  margin-top: 0px;
+  margin-bottom: 3.5px;
+  padding-top: 0px;
+}
+.image {
+  width: 120px;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+.image2 {
+  width: 120px;
+  height: 100px;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+.image3 {
+  width: 120px;
+  height: 100px;
+  margin-right: 15px;
+  border-radius: 5px;
+}
+.All-Products-Button {
+  background-color: #3399ff;
+  height: auto;
+  width: auto;
+  align-self: center;
+  margin-top: 60px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  font-family: 'Roboto';
+  font-size: 13px;
+  color: white;
+}
+.Footer-Container {
+  display: flex;
+  margin-top: 130px;
+  height: 10vh;
+  background-color: #f7f5f5;
+  flex-direction: row;
+  width: 99vw;
+  justify-content: flex-end;
+}
+.total-Products {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: bold;
+  border-right: 1px solid;
+  padding: 5px;
+}
+.price-text {
+  font-size: 14px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  padding-top: 6px;
+  padding-left: 10px;
+}
+.number {
+  font-size: 19px;
+}
